@@ -1,4 +1,4 @@
-require_relative '../db/migrate/01_create_students'
+require_relative '../db/migrate/20230614092253_create_students.rb'
 
 describe CreateStudents do
   before do

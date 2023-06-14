@@ -1,6 +1,6 @@
-require_relative '../db/migrate/01_create_students'
-require_relative '../db/migrate/02_add_grade_and_birthdate_to_students'
-require_relative '../db/migrate/03_change_datatype_for_birthdate'
+require_relative '../db/migrate/20230614092253_create_students.rb'
+require_relative '../db/migrate/20230614093333_add_grade_and_birthdate_to_students.rb'
+require_relative '../db/migrate/20230614093653_change_datatype_for_birthdate.rb'
 
 describe ChangeDatatypeForBirthdate do
   before do
